@@ -4,7 +4,7 @@ import ListGroup from "./components/ListGroup";
 import Button from "./components/Button";
 import { useState } from "react";
 
-let items = ["US", "JP", "HK", "TW", "UK"];
+let items = ["US", "JP", "HK", "TW", "UK", "CA"];
 
 const handleSelectItem = (item: string) => {
   console.log(item);
