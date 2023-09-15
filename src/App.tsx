@@ -3,8 +3,6 @@ import TopNav from "./components/TopNav";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Container from "react-bootstrap/Container";
 import top from "./img/top.jpg";
-import bottom from "./img/bottom.jpg";
-import { Nav } from "react-bootstrap";
 
 let items = ["JavaScript", "React", "HTML", "jQuery", "XML"];
 
