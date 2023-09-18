@@ -1,3 +1,52 @@
 #navbar{
     z-index: 1;
 }
+
+.font-style1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:60px;
+}
+
+.gradient-blue{
+    background-image: linear-gradient(97deg,#0085f1 0%, #2d79fb 20%, #a353e0 100%);
+    background-clip: text;
+    -webkit-background-clip: text;    
+    color: transparent;
+}
+
+.font-italic{
+    font-style: italic;
+}
+
+.ver-center{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    max-width: 450px;
+    max-height: 450px;
+}
+
+@media (max-width:1200px){
+    .icon{
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
+@media (max-width:767px){
+    .mobile-hide{
+        display: none;
+    }
+}
+
+
+
+
+
+@media (max-width:767px){
+    .mobile-hide{
+        display: none;
+    }
+}
