@@ -1,5 +1,3 @@
-import { ReactNode } from "react";
-
 interface Props {
   icon: string;
   alt: string;

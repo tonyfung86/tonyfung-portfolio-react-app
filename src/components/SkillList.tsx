@@ -1,5 +1,5 @@
 import { Col } from "react-bootstrap";
-import IconBox from "./iconBox";
+import IconBox from "./IconBox";
 
 const skills = [
   {
