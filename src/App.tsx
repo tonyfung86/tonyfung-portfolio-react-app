@@ -12,7 +12,6 @@ import FunctionButton from "./components/FunctionButton";
 import InfoBox from "./components/InfoBox";
 import { PiLayoutThin, PiDeviceMobileThin } from "react-icons/Pi";
 import { CiServer } from "react-icons/ci";
-import IconBox from "./components/iconBox";
 import SkillList from "./components/SkillList";
 
 const infoIconStyles = { color: "black", fontSize: "80px" };
