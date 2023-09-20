@@ -13,6 +13,8 @@ import InfoBox from "./components/InfoBox";
 import { PiLayoutThin, PiDeviceMobileThin } from "react-icons/pi";
 import { CiServer } from "react-icons/ci";
 import SkillList from "./components/SkillList";
+import Resume from "./document/TonyFung_Resume.pdf";
+import LinkButton from "./components/LinkButton";
 
 const infoIconStyles = { color: "black", fontSize: "80px" };
 
@@ -75,12 +77,7 @@ function App() {
                 </p>
               </Col>
             </Row>
-            <FunctionButton
-              children={"Download Resume"}
-              onClick={() => {
-                window.open("./src/document/TonyFung_Resume.pdf", "_blank");
-              }}
-            />
+            <LinkButton link={Resume} children={"Download Resume"} />
           </Container>
 
           <Container className="content">
