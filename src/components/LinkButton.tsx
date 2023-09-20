@@ -4,14 +4,14 @@ import Button from "react-bootstrap/Button";
 interface Props {
   children: ReactNode;
   color?: "primary" | "secondary" | "danger";
-  link: string;
+  link?: string;
 }
 
 const LinkButton = ({ children, color = "primary", link }: Props) => {
   return (
     <>
       <Button className="btn-function" variant={"outline-" + color}>
-        <a href={link}>{children}</a>
+        {children}
       </Button>
     </>
   );

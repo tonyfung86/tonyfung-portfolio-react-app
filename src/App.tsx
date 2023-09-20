@@ -76,7 +76,9 @@ function App() {
                 </p>
               </Col>
             </Row>
-            <LinkButton link={Resume} children={"Download Resume"} />
+            <a href={Resume}>
+              <LinkButton link={Resume} children={"Download Resume"} />
+            </a>
           </Container>
 
           <Container className="content">
