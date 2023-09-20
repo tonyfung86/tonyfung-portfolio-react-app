@@ -10,7 +10,7 @@ import { useRef } from "react";
 import ScrollButton from "./components/ScrollButton";
 import FunctionButton from "./components/FunctionButton";
 import InfoBox from "./components/InfoBox";
-import { PiLayoutThin, PiDeviceMobileThin } from "react-icons/Pi";
+import { PiLayoutThin, PiDeviceMobileThin } from "react-icons/pi";
 import { CiServer } from "react-icons/ci";
 import SkillList from "./components/SkillList";
 

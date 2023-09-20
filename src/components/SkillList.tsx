@@ -18,7 +18,7 @@ const skills = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
   },
   {
-    id: 3,
+    id: 4,
     title: "bootstrap",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg",
   },
