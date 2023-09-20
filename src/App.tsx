@@ -127,9 +127,6 @@ function App() {
               <SkillList />
             </Row>
           </Container>
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={3} speed={0.4}>
           <Container className="content">
             <h1 id="contact" className="title">
               CONTACT ME
@@ -147,6 +144,8 @@ function App() {
             <h2>Tel: (647) 594-1957</h2>
           </Container>
         </ParallaxLayer>
+
+        <ParallaxLayer offset={3} speed={0.4}></ParallaxLayer>
       </Parallax>
     </>
   );
