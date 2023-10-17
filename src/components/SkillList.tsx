@@ -29,13 +29,13 @@ const skills = [
   },
   {
     id: 6,
-    title: "php",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    title: "node.js",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
   },
   {
     id: 7,
-    title: "mysql",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+    title: "php",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
   },
   {
     id: 8,
@@ -47,6 +47,11 @@ const skills = [
     title: "git",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg",
   },
+  {
+    id: 10,
+    title: "mysql",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+  },
 ];
 
 const SkillList = () => {
@@ -54,7 +59,14 @@ const SkillList = () => {
     <>
       {skills.map((skill) => {
         return (
-          <Col xs={4} sm={2} md={3} lg={2} key={skill.id}>
+          <Col
+            xs={4}
+            sm={2}
+            md={3}
+            lg={2}
+            key={skill.id}
+            className="center-content"
+          >
             <IconBox icon={skill.link} alt={skill.title + " icon"} />
           </Col>
         );

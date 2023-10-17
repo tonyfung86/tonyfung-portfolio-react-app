@@ -7,12 +7,14 @@ interface Props {
   link?: string;
 }
 
-const LinkButton = ({ children, color = "primary" }: Props) => {
+const LinkButton = ({ link, children, color = "primary" }: Props) => {
   return (
     <>
-      <Button className="btn-function" variant={"outline-" + color}>
-        {children}
-      </Button>
+      <a href={link}>
+        <Button className="btn-function" variant={"outline-" + color}>
+          {children}
+        </Button>
+      </a>
     </>
   );
 };
