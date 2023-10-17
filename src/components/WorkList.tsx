@@ -10,12 +10,14 @@ const works = [
     img: govweb,
     title: "Government website development",
     text: "Modernization of different legacy government websites, encompassing front-end development, ongoing maintenance, and integration with a back-end Content Management System (CMS).",
+    link: "",
   },
   {
     id: 2,
     img: stylized,
     title: "Image stylize app",
     text: "An android project of an social media application with image stylize and basic photo editing function.",
+    link: "",
   },
 ];
 
@@ -32,18 +34,14 @@ const WorkList = () => {
             key={work.id}
             className="center-content"
           >
-            <Card
-              style={
-                {
-                  /*width: "18rem"*/
-                }
-              }
-            >
+            <Card className="workBox">
               <Card.Img variant="top" src={work.img} />
               <Card.Body>
                 <Card.Title>{work.title}</Card.Title>
                 <Card.Text>{work.text}</Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                {work.link !== "" && (
+                  <Button variant="primary">Go somewhere</Button>
+                )}
               </Card.Body>
             </Card>
           </Col>

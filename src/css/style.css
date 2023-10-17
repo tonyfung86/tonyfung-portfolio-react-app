@@ -230,3 +230,9 @@ html {
 .homeBtn.visible {
   opacity: 1; /* When visible, make the button fully opaque */
 }
+
+@media (max-width: 575px) {
+  .workBox {
+    margin-bottom: 10px;
+  }
+}
